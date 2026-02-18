@@ -10,8 +10,8 @@ import { FaFire } from "react-icons/fa6";
 import { GiLaurelsTrophy } from "react-icons/gi";
 import emptypicture from '../assets/emptypicture.png';
 import i3 from '../assets/i3.JPG'
-import i4 from '../assets/i4.JPG'
-import i5 from '../assets/i5.JPG'
+import i4 from '../assets/I4.JPG'
+import i5 from '../assets/I5.JPG'
 import i7 from '../assets/i7.JPG'
 import i8 from '../assets/i8.JPG'
 import i9 from '../assets/i9.JPG'
