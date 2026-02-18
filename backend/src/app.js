@@ -10,11 +10,15 @@ const app = express();
 app.use(cookieParser());
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: '*',
     credentials: true 
 }));
 
 app.use(express.json());
+
+app.get("/", (req, res) => {
+  res.send("Backend is running");
+});
 
 app.use('/api/user', userRouter)
 app.use('/api/comments', commentRouter)
