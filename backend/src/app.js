@@ -10,7 +10,7 @@ const app = express();
 app.use(cookieParser());
 
 app.use(cors({
-    origin: 'https://codequest-tau.vercel.app',
+    origin: 'https://codequest-tau.vercel.app/',
     credentials: true 
 }));
 
