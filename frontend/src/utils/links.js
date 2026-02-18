@@ -1,28 +1,28 @@
 // user routes links
-export const signup = 'http://localhost:3000/api/user/signup';
-export const login = 'http://localhost:3000/api/user/signin';
-export const logoutLink = 'http://localhost:3000/api/user/logout';
-export const getUser = 'http://localhost:3000/api/user/getuser';
-export const getUserById = 'http://localhost:3000/api/user';
-export const sendOtpLink = 'http://localhost:3000/api/user/send/otp';
-export const verifyOtpLink = 'http://localhost:3000/api/user/verify/otp';
-export const editUserDescriptionLink = 'http://localhost:3000/api/user/update/description';
+export const signup = 'https://code-quest-1-19hz.onrender.com/api/user/signup';
+export const login = 'https://code-quest-1-19hz.onrender.com/api/user/signin';
+export const logoutLink = 'https://code-quest-1-19hz.onrender.com/api/user/logout';
+export const getUser = 'https://code-quest-1-19hz.onrender.com/api/user/getuser';
+export const getUserById = 'https://code-quest-1-19hz.onrender.com/api/user';
+export const sendOtpLink = 'https://code-quest-1-19hz.onrender.com/api/user/send/otp';
+export const verifyOtpLink = 'https://code-quest-1-19hz.onrender.com/api/user/verify/otp';
+export const editUserDescriptionLink = 'https://code-quest-1-19hz.onrender.com/api/user/update/description';
 
 // comments
-export const createComment = 'http://localhost:3000/api/comments/create';
-export const updateComment = 'http://localhost:3000/api/comments/update';
-export const deleteComment = 'http://localhost:3000/api/comments/delete';
-export const getCommentsByUsers = 'http://localhost:3000/api/comments'
+export const createComment = 'https://code-quest-1-19hz.onrender.com/api/comments/create';
+export const updateComment = 'https://code-quest-1-19hz.onrender.com/api/comments/update';
+export const deleteComment = 'https://code-quest-1-19hz.onrender.com/api/comments/delete';
+export const getCommentsByUsers = 'https://code-quest-1-19hz.onrender.com/api/comments'
 
 // issue route link
-export const solveIssue = 'http://localhost:3000/api/problems/issue/solve';
-export const getAllissue = 'http://localhost:3000/api/problems/issue/fetch';
-export const getIssue = 'http://localhost:3000/api/problems/issue'
+export const solveIssue = 'https://code-quest-1-19hz.onrender.com/api/problems/issue/solve';
+export const getAllissue = 'https://code-quest-1-19hz.onrender.com/api/problems/issue/fetch';
+export const getIssue = 'https://code-quest-1-19hz.onrender.com/api/problems/issue'
 
 // store and leader board
-export const storeLink = 'http://localhost:3000/api/utils/store/buy';
-export const bountyLeaderBoardLink = 'http://localhost:3000/api/utils/leaderboard/bounty';
-export const streakLeaderBoardLink = 'http://localhost:3000/api/utils/leaderboard/streak';
-export const getAllAvatarsLink = 'http://localhost:3000/api/utils/avatars';
-export const updateUserAvatarLinkPrefix = 'http://localhost:3000/api/utils';
+export const storeLink = 'https://code-quest-1-19hz.onrender.com/api/utils/store/buy';
+export const bountyLeaderBoardLink = 'https://code-quest-1-19hz.onrender.com/api/utils/leaderboard/bounty';
+export const streakLeaderBoardLink = 'https://code-quest-1-19hz.onrender.com/api/utils/leaderboard/streak';
+export const getAllAvatarsLink = 'https://code-quest-1-19hz.onrender.com/api/utils/avatars';
+export const updateUserAvatarLinkPrefix = 'https://code-quest-1-19hz.onrender.com/api/utils';
 export const updateUserAvatarLinkSuffix = 'choose-avatar';
