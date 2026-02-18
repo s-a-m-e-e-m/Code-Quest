@@ -69,7 +69,7 @@ const Profile = () => {
               {/* Left */}
               <section className='flex flex-col gap-5 lg:w-2/5'>
                 <div className='flex items-center gap-4'>
-                  <Link to='/select/avatars'>
+                  <Link to={profile._id === user?._id ? '/select/avatars' : ''}>
                     <img
                       src={profile?.profilePic}
                       className='w-20 h-20 sm:w-24 sm:h-24 lg:w-28 lg:h-28 object-cover rounded-full border-4 border-white shadow-lg ring-2 ring-gray-200'
